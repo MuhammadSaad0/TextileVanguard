@@ -1,5 +1,7 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect } from 'react';
 import NavBar from "./NavBar";
+import bg1 from "./assets/background1.jpg";
+import bg2 from "./assets/background2.jpg";
 import "./HomePage.css";
 function HomePage() {
   
@@ -21,12 +23,12 @@ function HomePage() {
       </div>
       <div>
         <img
-          src= "src/assets/background1.jpg"
+          src= {bg1}
           id={currentImage === 1 ? "active" : "background1"}
           alt="Background"
         />
         <img
-          src= "src/assets/background2.jpg" 
+          src= {bg2} 
           id={currentImage === 2 ? "active" : "background2"}
           alt="Background"
         />
