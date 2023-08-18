@@ -1,0 +1,112 @@
+#contactNameDiv {
+  margin-left: 10rem;
+  margin-top: 3rem;
+}
+
+#contactEmailDiv {
+  margin-left: 10rem;
+  margin-top: 2rem;
+}
+
+#contactSubjectDiv {
+  margin-left: 10rem;
+  margin-top: 2rem;
+}
+
+#contactMessageDiv {
+  margin-left: 10rem;
+  margin-top: 2rem;
+}
+
+#contactName {
+  width: 70rem;
+  height: 4rem;
+  font-size: large;
+}
+
+#contactEmail {
+  width: 70rem;
+  height: 4rem;
+  font-size: large;
+}
+
+#contactSubject {
+  width: 70rem;
+  height: 4rem;
+  font-size: large;
+}
+
+#contactMessage {
+  width: 70rem;
+  height: 14rem;
+  font-size: large;
+}
+
+#contactSubmit {
+  margin-left: 10rem;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+  background-color: rgba(32, 77, 119, 255);
+  color: white;
+  width: 15rem;
+  height: 4rem;
+}
+
+#contactHeading {
+  color: black;
+  font-size: 3rem;
+  font-weight: 400;
+  margin-left: 10rem;
+}
+
+#contactAddressH {
+  position: absolute;
+  color: black;
+  margin-left: 100rem;
+  margin-top: -1rem;
+  font-size: 3rem;
+}
+
+#contactAddress {
+  position: absolute;
+  color: black;
+  margin-left: 100rem;
+  margin-top: 4rem;
+  width: 22rem;
+  font-size: 2rem;
+}
+
+#contactInfoH {
+  position: absolute;
+  color: black;
+  margin-left: 100rem;
+  margin-top: 10rem;
+  width: 27rem;
+  font-size: 3rem;
+}
+
+#conactTele {
+  position: absolute;
+  color: black;
+  margin-left: 100rem;
+  margin-top: 15rem;
+  width: 27rem;
+  font-size: 2rem;
+}
+
+#contactCell {
+  position: absolute;
+  color: black;
+  margin-left: 100rem;
+  margin-top: 19rem;
+  width: 27rem;
+  font-size: 2rem;
+}
+
+#contactMail {
+  position: absolute;
+  color: black;
+  margin-left: 100rem;
+  margin-top: 23rem;
+  font-size: 2rem;
+}

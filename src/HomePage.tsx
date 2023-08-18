@@ -1,34 +1,32 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect } from "react";
 import NavBar from "./NavBar";
 import bg1 from "./assets/background1.jpg";
 import bg2 from "./assets/background2.jpg";
 import "./HomePage.css";
 function HomePage() {
-  
-    const [currentImage, setCurrentImage] = useState(1);
-  
-    useEffect(() => {
-      const interval = setInterval(() => {
-        setCurrentImage(prevImage => (prevImage === 1 ? 2 : 1));
-      }, 7000);
-  
-      return () => clearInterval(interval);
-    }, []);
-  
+  const [currentImage, setCurrentImage] = useState(1);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentImage((prevImage) => (prevImage === 1 ? 2 : 1));
+    }, 7000);
+
+    return () => clearInterval(interval);
+  }, []);
 
   return (
-       <>
+    <>
       <div id="navBarDiv">
         <NavBar />
       </div>
       <div>
         <img
-          src= {bg1}
+          src={bg1}
           id={currentImage === 1 ? "active" : "background1"}
           alt="Background"
         />
         <img
-          src= {bg2} 
+          src={bg2}
           id={currentImage === 2 ? "active" : "background2"}
           alt="Background"
         />
@@ -46,6 +44,5 @@ function HomePage() {
     </>
   );
 }
-
 
 export default HomePage;

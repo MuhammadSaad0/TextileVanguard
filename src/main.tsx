@@ -4,16 +4,15 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 // import App from "./App.tsx";
 import HomePage from "./HomePage.tsx";
 import "./index.css";
+import ContactPage from "./ContactPage.tsx";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <BrowserRouter>
     <React.StrictMode>
-    <Routes>
-        <Route path="/" element={<HomePage />}>
-          <Route path="home" element={<HomePage />} />
-        </Route>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/contact" element={<ContactPage />} />
       </Routes>
     </React.StrictMode>
-    
   </BrowserRouter>
 );
