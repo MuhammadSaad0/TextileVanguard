@@ -13,9 +13,13 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
-  max-height: fit-content;
+  /* max-height: fit-content; */
   
 }
+
+/* *{
+  outline: 10px solid red;
+} */
 
 @media screen and (max-width: 1366px){
   :root{

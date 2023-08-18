@@ -4,7 +4,7 @@ nav {
   display: flex;
   justify-content: start; 
   align-items: center; 
-  width: 100vw;
+  max-width: 100%;
   padding-bottom: 2rem;
 }
 
@@ -12,15 +12,15 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  display: flex;
-  margin-left: 65rem;
+  /* display: flex; */
+  /* margin-left: 65rem; */
 }
 
 li {
   margin: 0;
   font-size: 2rem;
-  padding: 1rem 2rem;
-  margin-right: 1rem;
+  /* padding: 1rem 2rem;
+  margin-right: 1rem; */
   
 }
 

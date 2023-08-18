@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import "./NavBar.css";
 import logo from "./assets/logo.jpeg";
 function NavBar() {
@@ -6,7 +6,7 @@ function NavBar() {
     <nav>
       <img src={logo} className="logo"></img>
 
-      <ul>
+      {/* <ul>
         <li>
           <Link to="/">Home</Link>
         </li>
@@ -19,7 +19,7 @@ function NavBar() {
         <li>
           <Link to="/contact">Contact</Link>
         </li>
-      </ul>
+      </ul> */}
     </nav>
   );
 }
