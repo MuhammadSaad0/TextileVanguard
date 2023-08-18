@@ -4,7 +4,7 @@ nav {
   display: flex;
   justify-content: start; 
   align-items: center; 
-  width: 151.9rem;
+  width: 100vw;
   padding-bottom: 2rem;
 }
 
