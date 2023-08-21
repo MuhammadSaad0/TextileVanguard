@@ -2,10 +2,20 @@ nav {
   background-color: rgba(32,77,119,255);
   color: white;
   display: flex;
-  justify-content: start; 
+  flex-direction: row;
+  flex-wrap: wrap;
   align-items: center; 
+  justify-content: center;
   max-width: 100%;
   padding-bottom: 2rem;
+}
+
+#navLinks{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-left: auto;
+  width: 45%;
 }
 
 ul {
@@ -40,3 +50,39 @@ a:hover {
   height: 8rem; 
 }
 
+.menuButton{
+  display: none;
+  width: 15%;
+  background-color: #213547;
+  margin-right: 0.1%;
+}
+
+.my-menu {
+  border: 2px solid green;
+  z-index: 99;
+  width: auto;
+}
+
+.my-menuitem {
+  color: #213547;
+  background-color: white;
+  font-size: 2rem;
+  outline: 1px solid black;
+  padding: 1px;
+  cursor: pointer;
+}
+
+.my-menuitem:hover {
+  color: #213547;
+  background-color: rgb(157, 157, 157);
+}
+
+
+@media (max-width: 630px) {
+  .menuButton{
+    display: block;
+  }
+  #navLinks {
+    display: none;
+  }
+}
