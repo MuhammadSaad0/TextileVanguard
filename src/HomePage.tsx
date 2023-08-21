@@ -56,6 +56,7 @@ function HomePage() {
           showStatus
           autoPlay
           useKeyboardArrows
+          swipeable={false}
           width={"100%"}
         >
           <div>
