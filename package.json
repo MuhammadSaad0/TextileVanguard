@@ -24,6 +24,7 @@
     "vite": "^4.4.5"
   },
   "dependencies": {
-    "pigeon-maps": "^0.21.3"
+    "pigeon-maps": "^0.21.3",
+    "react-responsive-carousel": "^3.2.23"
   }
 }
