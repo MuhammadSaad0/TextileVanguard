@@ -129,6 +129,7 @@ const ProductPage = () => {
           muiTableHeadCellProps={{
             sx: {
               fontSize: "2.2rem",
+              backgroundColor: "#21354729",
               "& .Mui-TableHeadCell-Content-Wrapper": {
                 overflow: "visible",
               },
@@ -140,6 +141,7 @@ const ProductPage = () => {
           muiTableBodyCellProps={( ) => ({
             sx: {
               fontSize: "2rem",
+              backgroundColor: "#a6c7e43c"
             },
           })}
           muiTableHeadCellColumnActionsButtonProps={{
