@@ -11,9 +11,10 @@ function ContactPage() {
       </div>
       <div id="mapDiv">
       <Map
-        height={450}
+        height={420}
         defaultCenter={[31.440219220578342, 74.40490332102814]}
         defaultZoom={15}
+        animate
       >
         <Marker width={50} anchor={[31.440219220578342, 74.40490332102814]} />
       </Map>

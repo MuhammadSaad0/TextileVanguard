@@ -8,7 +8,7 @@ import tike_logo from "./assets/tike_logo.png";
 import perfect_logo from "./assets/perfect_logo.png";
 import bonino1913_logo from "./assets/bonino1913_logo.png";
 import nestling_logo from "./assets/nestling_logo.svg";
-import naren_logo from "./assets/naren_logo.jpg";
+import naren_logo from "./assets/naren_logo.png";
 import alanayat_logo from "./assets/alanayat_logo.png";
 import perfect_prod from "./assets/perfect_prods.jpg";
 import tike_prod from "./assets/twist_machines.png";

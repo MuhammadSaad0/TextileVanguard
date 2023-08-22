@@ -17,10 +17,13 @@
     color: black;
     max-width:60%;
     font-weight: bold;
+    font-size: 90%;
+    text-align: center;
+    margin-top: 5%;
 }
 
 #productImg {
-    max-width: 40%;
+    max-width: 45%;
     max-height: 55vh;
     border-radius: 10%;
 }
@@ -29,3 +32,14 @@
     max-width: 28%;
     max-height: 20vh;
 }
+
+
+@media screen and (max-width: 730px){
+    #productImg {
+        max-width: 90%;
+        /* max-height: 55vh; */
+        border-radius: 10%;
+    }
+    
+    
+  }

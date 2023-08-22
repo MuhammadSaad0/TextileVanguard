@@ -13,7 +13,7 @@ function NavBar() {
       <img src={logo} className="logo"></img>
       <Menu menuButton={<MenuButton className="menuButton">☰</MenuButton>} transition  menuClassName="my-menu">
       <MenuItem className="my-menuitem" onClick={() => navigate("/")}>Home</MenuItem>
-      <MenuItem className="my-menuitem">Products</MenuItem>
+      <MenuItem className="my-menuitem" onClick={() => navigate("/products")}>Products</MenuItem>
       <MenuItem className="my-menuitem" onClick={() => navigate("/contact")}>Contact</MenuItem>
     </Menu>
       <ul id="navLinks">
@@ -21,7 +21,7 @@ function NavBar() {
           <Link to="/">Home</Link>
         </li>
         <li>
-          <Link to="/">Products</Link>
+          <Link to="/products">Products</Link>
         </li>
         <li>
           <Link to="/contact">Contact</Link>

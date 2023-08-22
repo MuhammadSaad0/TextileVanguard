@@ -14,7 +14,6 @@ function CarouselProduct({logolink, productlink, productDesc}: ProdProps){
             <p id="productDesc">{productDesc}</p>
             </div>
             <img src={productlink} id="productImg"></img>
-           
         </div>
         </>
     );
