@@ -1,13 +1,12 @@
-import React, { useMemo } from "react";
+import { useMemo } from "react";
 import { MaterialReactTable, type MRT_ColumnDef } from "material-react-table";
-import Flag from "react-world-flags";
 import NavBar from "./NavBar";
 import "./ProductPage.css";
 
 //example data type
 type Person = {
   companyName: string;
-  country: Element;
+  country: string;
   product: string;
 };
 
@@ -15,59 +14,59 @@ type Person = {
 const data: Person[] = [
   {
     companyName: "MireBobbin",
-    country: <Flag code="kor" height="28" />,
+    country: "Korea",
     product: "Spinning Bobbins",
   },
   {
     companyName: "Biotti",
-    country: <Flag code="ita" height="28" />,
+    country: "Italy",
     product: "Metallic Card Clothing",
   },
   {
     companyName: "Kartex",
-    country: <Flag code="chn" height="28" />,
+    country: "China",
     product: "All Types of Spinning Spindles",
   },
   {
     companyName: "Asteks",
-    country: <Flag code="tur" height="28" />,
+    country: "Turkey",
     product: "High End Rubber Cots and Aprons",
   },
   {
     companyName: "Tikemumessillik",
-    country: <Flag code="tur" height="28" />,
+    country: "Turkey",
     product: "Twisting/Doubling Machines and High End Textile Spare Parts",
   },
   {
     companyName: "Perfect Equipments",
-    country: <Flag code="ind" height="28" />,
+    country: "India",
     product:
       "Carding Workshop, Roller Cover Workshop Machines, waste recycling lines",
   },
   {
     companyName: "DMComp",
-    country: <Flag code="chn" height="28" />,
+    country: "China",
     product: "Two Stage Energy Saving Air Compressors",
   },
   {
     companyName: "Bonino1913",
-    country: <Flag code="ita" height="28" />,
+    country: "Italy",
     product: "Recycling Lines, opening and blending",
   },
   {
     companyName: "NestlingTech",
-    country: <Flag code="ind" height="28" />,
+    country: "India",
     product: "Contamination Sorter, Spindle Monitoring, AI Based Cop Sorting",
   },
   {
     companyName: "Naren Group",
-    country: <Flag code="ind" height="28" />,
+    country: "India",
     product:
       "High End Spare Parts Mechanical and Electronics from Blow Room To Winding",
   },
   {
     companyName: "Al Anayat",
-    country: <Flag code="pak" height="28" />,
+    country: "Pakistan",
     product:
       "High End Energy Saving Air Conditioning and Waste Collection Systems",
   },
